@@ -32,5 +32,6 @@ int main(){
     cin>>dept;
     t1.changeDept(dept);
     t1.getInfo();
+    cout<<endl<<t1.name;
     return 0;
 }
