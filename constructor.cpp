@@ -2,6 +2,8 @@
 using namespace std;
 // constructor is the method in class that has same name as class name 
 // constructor doesnt have any return type 
+// constructor is only called as once not more than one 
+// do not made constructor inside the private access modifiers 
 class home{
     public:
     int size , rooms , floors;
